@@ -1,0 +1,293 @@
+body {
+	background-color: #FFF9EC;
+	margin: 0px 0px 0px 0px;
+	color: #131313;
+}
+
+div#main-header {
+	width: 100%;
+	height: 260px;
+	background-color: #131313;
+	color: #FFF9EC;
+}
+
+div#button {
+	float: right;
+	padding: 80px 80px;
+}
+
+.dropbtn {
+  	background-color: transparent;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+  	color: #FFF9EC;
+  	font-size: 1.5vw;
+  	border: none;
+	transition: .5s ease;
+}
+
+.dropdown {
+  	position: relative;
+  	display: inline-block;
+}
+
+.dropdown-content {
+  	display: none;
+  	position: absolute;
+  	background-color: transparent;
+  	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 1.2vw;
+}
+
+.dropdown-content a {
+  	color: #D7263D;
+  	padding: 3px 6px;
+  	text-decoration: none;
+  	display: block;
+  	transition: .5s ease;
+}
+
+.dropdown-content a:hover {
+	background-color: transparent;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	color: #D7263D;
+}
+
+div#myphoto {
+	width: 230px;
+	float: left;
+	padding: 25px 0px 0px 30px;
+}
+
+div#myintro {
+	float: left;
+	padding: 0px 50px;
+}
+
+img#mypic {
+	width: 200px;
+	border-radius: 50% 50% 50% 50%;
+	padding: 15px 0px 0px 0px;
+}
+
+h1#myname {
+	font-size: 4vw;
+	font-family: 'Fraunces', serif;
+	font-weight: 700;
+	margin: 80px 0px 0px 0px;
+}
+
+h3#myposition {
+	font-family: 'Archivo', sans-serif;
+	font-size: 1.6vw;
+	font-weight: 300;
+	font-style: italic;
+	margin: 15px 0px 0px 0px;
+	color: #D7263D;
+}
+
+div#main-body {
+	width: 100%;
+}
+
+div#main-content {
+	width: 66%;
+	background-color: #FFF9EC;
+	font-family: 'Archivo', sans-serif;
+	text-align: justify;
+	float: left;
+	background-image: url("img/gradient.jpg");
+	background-position: top;
+	background-size: 1200px;
+	background-repeat: repeat-x;
+	padding: 5% 2% 0% 2%;
+	font-size: 1.2vw;
+}
+
+p, li {
+	margin: 0px 60px 0px 0px;
+}
+
+img#icon-title {
+	width: 1.6vw;
+}
+
+p, li, span {
+	line-height: 150%;
+}
+
+
+h2#subheader1 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	color: #131313;
+}
+
+h2#subheader2 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	color: #FFF9EC;
+}
+
+h3#employer {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+}
+
+h4#job-title {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	margin: -10px 0px 0px 0px;
+}
+
+h2#top-subheader {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	color: #FFF9EC;
+}
+
+p#top-paragraph {
+	color: #FFF9EC;
+}
+
+div#list1, div#list2 {
+	display:inline-block;
+	width: 410px;
+	vertical-align:baseline;
+}
+
+div#list3, div#list4 {
+	display:inline-block;
+	width: 430px;
+	vertical-align:baseline;
+	list-style-type: none;
+}
+
+ul#edu {
+	list-style-type: none;
+}
+
+li#title {
+	font-family: 'Archivo', sans-serif;
+	font-weight: 600;
+}
+
+li#titlethree {
+	font-family: 'Archivo', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+li#titletwo {
+	font-family: 'Archivo', sans-serif;
+	font-weight: 500;
+}
+
+span#title {
+	font-family: 'Archivo', sans-serif;
+	font-weight: 600;
+}
+
+span#titlethree {
+	font-family: 'Archivo', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+div#main-sidebar {
+	width: 26%;
+	background-color: #131313;
+	color: #FFF9EC;
+	font-family: 'Archivo', sans-serif;
+	float: left;
+	padding: 5% 2% 5% 2%;
+	border-radius: 0px 0px 0px 70px;
+	font-size: 1.2vw;
+}
+
+a:link {
+	text-decoration: none;
+	color: #FFF9EC;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #FFF9EC;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #D7263D;
+	transition: .5s ease;
+}
+
+a:active {
+	text-decoration: none;
+	color: #D7263D;
+}
+
+div#main-footer {
+	color: #131313;
+	font-family: 'Fraunces', serif;
+	font-weight: 200;
+	font-size: 1.2vw;
+}
+
+				/*start of contact styles*/
+
+div#myintro2 {
+	float: left;
+	padding: 0px 0px 0px 80px;
+}
+
+div#formsection {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 60px;
+	font-family: 'Archivo', sans-serif;
+	font-weight: 300;
+	color: #131313;
+}
+
+input[type=text], input[type=email], select, textarea {
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #131313;
+	width: 50%;
+	font-family: 'Archivo', sans-serif;
+	font-weight: 300;
+	font-size: 1.3vw;
+} 
+
+input[type=submit] {
+	background-color: #131313;
+	border-radius: 3vw;
+	border: none;
+	color: #FFF9EC;
+	font-family: 'Archivo', sans-serif;
+	font-weight: 300;
+	font-size: 1.3vw;
+	width: 15%;
+	padding: 20px 0px 20px 0px;
+}
+
+
+span#footer1 {
+	display:inline-block;
+	margin: 2% 40% 0% 1%;
+	list-style-type: none;
+}
+
+span#footer2 {
+   display:inline-block;
+   margin: 2% 0% 0% 36%;
+   list-style-type: none;
+}
+				/*end of contact styles*/
